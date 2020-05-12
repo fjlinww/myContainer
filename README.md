@@ -3,7 +3,7 @@ A shell file to install docker and compose on Ubuntu system.
 
 # How to use
 - Run **INSTALLDOCKER.sh** to install docker
-- RUN **INSTALLCOMPOSE.sh** to install docker-compose
+- Run **INSTALLCOMPOSE.sh** to install docker-compose
 
 # More Information
 [**Install Docker Engine on Ubuntu**](https://docs.docker.com/engine/install/ubuntu/)
