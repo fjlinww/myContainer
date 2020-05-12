@@ -1,2 +1,2 @@
 # DockerShell
-A shell file 同
+A shell file to install docker on Ubuntu system. 
