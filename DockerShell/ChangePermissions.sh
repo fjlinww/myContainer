@@ -5,7 +5,7 @@
 #添加docker用户组
 sudo groupadd docker
 
-#将登陆用户加入到docker用户组中
+#将登录用户加入到docker用户组中
 sudo gpasswd -a $USER docker
 
 #更新用户组
