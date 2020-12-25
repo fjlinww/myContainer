@@ -1,5 +1,5 @@
 # Introduction
-A shell file to install docker and compose on Ubuntu system. 
+A shell file to install docker and k8s on Ubuntu system. 
 
 # How to use
 
