@@ -1,4 +1,5 @@
-images=(  # 下面的镜像应该去除"k8s.gcr.io/"的前缀，版本换成上面获取到的版本
+# 先执行命令kubeadm config images list，再执行以下脚本
+images=(  # 下面的镜像应该去除"k8s.gcr.io/"的前缀，版本换成kubeadm config images list获取到的版本
     kube-apiserver:v1.20.1
     kube-controller-manager:v1.20.1
     kube-scheduler:v1.20.1
