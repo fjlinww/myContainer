@@ -1,7 +1,11 @@
 # master节点执行kubeadm reset后的手动操作
 
 sudo kubeadm reset  #enter 'y' to confirm
+
+su root
 iptables -F && iptables -t nat -F && iptables -t mangle -F && iptables -X  #run as root
+exit
+
 sudo rm -rf $HOME/.kube/*
 
 systemctl stop kubelet
